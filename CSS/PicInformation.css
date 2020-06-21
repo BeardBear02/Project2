@@ -1,0 +1,77 @@
+div.picture{
+    margin: 0 2% 2%;
+}
+div.picture>figure>img,div.picture>figure>figcaption{
+    display: inline-block;
+}
+div.picture>figure>img{
+    width: auto;
+    max-width: 100%;
+}
+div.PicDetails{
+    margin: 1%;
+    width: 100%;
+}
+div.PicDetails>h3{
+    color: #b5c02d;
+    font-weight: bold;
+    font-size: 2vw;
+    margin-left: 5%;
+}
+div.PicDetails>p{
+    width: 100%;
+    color: #ffbb62;
+    margin-left: 5%;
+    padding: 5%;
+    font-size: 1.5vw;
+    line-height: 1.2;
+    font-weight: bold;
+}
+div.PicDescription{
+    margin: 0 3.5% 3.5%;
+}
+div.PicDescription>h3{
+    color: #b5c02d;
+    font-weight: bold;
+    font-size: 2vw;
+    margin-bottom: 1.3%;
+}
+div.PicDescription>p{
+    text-indent: 2rem;
+    line-height: 1.3;
+    font-size: 1.5vw;
+}
+input[type="button"]{
+    color: whitesmoke;
+    background-color: #ffbb62;
+    font-size: 1.5vw;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 20%;
+    border-radius: 0.7rem;
+    margin-left: 70%;
+    margin-bottom: 1%;
+}
+input[type="button"]:hover{
+   background-color: #ffbb62;
+}
+@media (max-width: 768px){
+    div.PicDetails>h3{
+        font-size: 3vw;
+    }
+    div.PicDetails>p{
+        font-size: 2.5vw;
+    }
+    div.PicDescription>h3{
+        font-size: 3vw;
+    }
+    div.PicDescription>p{
+        text-indent: 2rem;
+        line-height: 1.3;
+        font-size: 2.5vw;
+    }
+    input[type="button"]{
+        width: 22%;
+        font-size: 2.5vw;
+    }
+}
